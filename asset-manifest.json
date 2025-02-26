@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mimic-dashboard/static/css/main.bd35a586.css",
+    "main.js": "/mimic-dashboard/static/js/main.2ee545cb.js",
+    "static/js/453.5409a749.chunk.js": "/mimic-dashboard/static/js/453.5409a749.chunk.js",
+    "index.html": "/mimic-dashboard/index.html",
+    "main.bd35a586.css.map": "/mimic-dashboard/static/css/main.bd35a586.css.map",
+    "main.2ee545cb.js.map": "/mimic-dashboard/static/js/main.2ee545cb.js.map",
+    "453.5409a749.chunk.js.map": "/mimic-dashboard/static/js/453.5409a749.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd35a586.css",
+    "static/js/main.2ee545cb.js"
+  ]
+}
