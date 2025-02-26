@@ -45,11 +45,11 @@ const Dashboard = () => {
     const fetchData = async () => {
       try {
         const [outcomes, diagnoses, stays, medications, labs] = await Promise.all([
-          fetch('/processed_data/patient_outcomes.json').then(res => res.json()),
-          fetch('/processed_data/diagnosis_distribution.json').then(res => res.json()),
-          fetch('/processed_data/stay_duration.json').then(res => res.json()),
-          fetch('/processed_data/medication_frequency.json').then(res => res.json()),
-          fetch('/processed_data/lab_value_trends.json').then(res => res.json())
+          fetch('./processed_data/patient_outcomes.json').then(res => res.json()),
+          fetch('./processed_data/diagnosis_distribution.json').then(res => res.json()),
+          fetch('./processed_data/stay_duration.json').then(res => res.json()),
+          fetch('./processed_data/medication_frequency.json').then(res => res.json()),
+          fetch('./processed_data/lab_value_trends.json').then(res => res.json())
         ]);
 
         setPatientOutcomes(outcomes);
